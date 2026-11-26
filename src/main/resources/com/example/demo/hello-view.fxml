@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="431.0" prefWidth="733.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns:javafx="http://javafx.com/javafx/17.0.12" fx:controller="com.example.demo.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="questionLabel" />
+    <HBox prefHeight="100.0" prefWidth="200.0">
+        <children>
+            <Button onAction="#onNoteC" prefHeight="150.0" prefWidth="100.0" text="C" />
+            <Button mnemonicParsing="false" onAction="#onNoteD" prefHeight="150.0" prefWidth="100.0" text="D" />
+            <Button mnemonicParsing="false" onAction="#onNoteE" prefHeight="150.0" prefWidth="100.0" text="E" />
+            <Button mnemonicParsing="false" onAction="#onNoteG" prefHeight="150.0" prefWidth="100.0" text="G" />
+            <Button mnemonicParsing="false" onAction="#onNoteF" prefHeight="150.0" prefWidth="100.0" text="F" />
+            <Button mnemonicParsing="false" onAction="#onNoteA" prefHeight="150.0" prefWidth="100.0" text="A" />
+            <Button mnemonicParsing="false" onAction="#onNoteB" prefHeight="150.0" prefWidth="100.0" text="B" />
+        </children>
+    </HBox>
+</VBox>
